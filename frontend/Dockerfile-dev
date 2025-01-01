@@ -1,0 +1,4 @@
+FROM node:23-bullseye
+WORKDIR /app
+EXPOSE 80
+CMD ["npm", "run", "dev", "--", "--port", "80", "--hot"]
